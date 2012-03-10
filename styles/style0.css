@@ -1,0 +1,55 @@
+root { 
+    display: block;
+}
+body {
+    margin: 0 auto;
+    padding: 30px;
+}
+.login {
+    width: 300px;
+    margin: 100px auto;
+    padding: 15px;
+    position: relative;
+}
+.login h3 {
+    text-align: center;
+    margin-bottom: 0px;
+}
+.login h4 {
+    text-align: center;
+    margin-top: 5px;
+    margin-bottom: 20px;
+}
+.login form, .login table, input, .login label, select {
+    font-size: 14px;
+    padding: 3px;
+    margin: 2px 0;
+    width: 100%;
+}
+.login form fieldset {
+    font-size: 18px;
+    border:1px solid #999;
+    background: #efefef;
+}
+.users {
+    margin-top:20px; 
+    width: 100%;
+    padding: 5px;
+    text-align: center;
+}
+.users caption {
+    text-align: right;
+    font-size: 18px;
+    font-style: italic;
+    font-weight: bold;
+}
+.users th {
+    background: #81aed1;
+}
+.users tr {
+    border-bottom:1px dashed #444;
+    background: #efefef;
+}
+.users tr:hover {
+    background: #c9ddf2;
+}
