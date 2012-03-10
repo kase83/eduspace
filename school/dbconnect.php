@@ -1,7 +1,7 @@
 <?php
 
 $dbserv=localhost;
-$dbuser=root;
+$dbuser=edu;
 $dbpass=VrvMBs;
 $db=eduspace;
 $con=mysql_connect($dbserv,$dbuser,$dbpass);
